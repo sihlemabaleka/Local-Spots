@@ -6,6 +6,8 @@ public class FoursquareVenue {
     private String city;
 
     private String category;
+    private double latitude;
+    private double longitude;
 
     public FoursquareVenue() {
         this.name = "";
@@ -42,5 +44,14 @@ public class FoursquareVenue {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    public double getLatitude() {
+        return  latitude;
+    }
+    public double getLongitude() {
+        return  longitude;
+    }
+
+
 }
 
